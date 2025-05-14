@@ -81,7 +81,7 @@ const SellVehicleModal = ({ isVisible, onClose, vehicleData }) => {
       padding: "1.25rem",
       borderRadius: "12px",
       backgroundColor: "#fff",
-      zIndex: 10000,
+     
     }}
     >
       <h2 className="text-xl font-bold text-center mb-6">Enter Your Details</h2>

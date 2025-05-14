@@ -82,7 +82,7 @@ const VehiclePriceResultModal = ({ isVisible, onClose, vehicleDetails }) => {
           }`}
         >
            <div
-  className="fixed bottom-2 right-2 w-[80%] sm:w-full sm:max-w-md sm:bottom-2 sm:right-2 z-50"
+  className="fixed bottom-2 right-2 w-[80%] sm:w-full sm:max-w-md sm:bottom-2 sm:right-2 z-10000"
 >
           <div className="rounded-xl shadow-lg bg-white overflow-hidden">
             <div className="bg-blue-600 rounded-t-xl px-4 py-3 relative">

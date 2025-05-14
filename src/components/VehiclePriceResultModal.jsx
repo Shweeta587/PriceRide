@@ -75,7 +75,7 @@ const VehiclePriceResultModal = ({ isVisible, onClose, vehicleDetails }) => {
     <>
       {isVisible && (
         <div
-          className={`fixed bottom-4 right-4 z-50 w-[360px] max-w-md transition-all duration-500 ease-out ${
+          className={`fixed bottom-4 right-4 z-10000 w-[360px] max-w-md transition-all duration-500 ease-out ${
             isVisibleWithAnimation
               ? "opacity-100 translate-y-0"
               : "opacity-0 translate-y-10"

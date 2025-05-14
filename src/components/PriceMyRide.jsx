@@ -13,7 +13,7 @@ const PriceMyRide = () => {
     >
       {/* <div className="relative w-full max-w-[900px] px-4">
         
-        <div className="absolute left-1/2 transform -translate-x-1/2 -top-34 z-10">
+        <div className="absolute left-1/2 transform -translate-x-1/2 -top-34 z-10000">
           <img
             src="./pricemyride.png"
             alt="Price My Ride Logo"

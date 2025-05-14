@@ -80,23 +80,23 @@ const VehiclePriceModal = ({ isVisible, onClose }) => {
     <>
       {isVisible && (
         <div
-          className={`fixed bottom-4 right-4 z-50 w-[420px] max-w-sm transition-all duration-500 ease-out ${
+          className={`fixed bottom-4 right-4 z-10000 w-[420px] max-w-sm transition-all duration-500 ease-out ${
             isVisibleWithAnimation
               ? "opacity-100 translate-y-0"
               : "opacity-0 translate-y-10"
           }`}
         >
-         <div className="fixed bottom-2 right-2 w-[75%] sm:w-full sm:max-w-lg sm:bottom-0 sm:right-1 z-50">
+         <div className="fixed bottom-2 right-2 w-[75%] sm:w-full sm:max-w-lg sm:bottom-0 sm:right-1 z-10000">
             <div className="rounded-xl shadow-lg bg-white overflow-hidden">
               <div className="relative mb-6 px-4 pt-4">
                 <div className="absolute inset-x-0 top-0 h-12 bg-blue-600 rounded-t-xl" />
                 <button
                   onClick={handleClose}
-                  className="absolute top-2 right-3 text-white text-xl font-bold z-20"
+                  className="absolute top-2 right-3 text-white text-xl font-bold z-10000"
                 >
                   &times;
                 </button>
-                <h2 className="relative text-2xl font-bold text-white text-center z-10">
+                <h2 className="relative text-2xl font-bold text-white text-center z-10000">
                   Enter Vehicle Details
                 </h2>
               </div>
